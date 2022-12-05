@@ -41,11 +41,11 @@ Follow the [roadmap](https://roadmap.sh/python) to become proficient at Python
 
 work through [python documentation](python.org)
 
-- [ ] Read the [Tutorial](https://docs.python.org/3/tutorial/index.html)
+- [x] Read the [Tutorial](https://docs.python.org/3/tutorial/index.html)
+- [ ] Skim the [Python Standard
+  Library](https://docs.python.org/3/library/index.html#library-index)
 - [ ] Read the [Python Language
   Reference](https://docs.python.org/3/reference/index.html#reference-index)
-- [ ] Read the [Python Standard
-  Library](https://docs.python.org/3/library/index.html#library-index)
 
 ## Python Resources
 - [ ] work through [Automate the Boring
@@ -55,10 +55,3 @@ work through [python documentation](python.org)
 - [ ] work through [Python
   Tips](https://book.pythontips.com/en/latest/index.html)
 
-## Notes
-- Important topic to read up on after understanding classes:
-  [descriptors](https://docs.python.org/3/howto/descriptor.html#descriptorhowto)
-- **Dictionary comprehension:** A compact way to process all or part of the
-  elements in an iterable and return a dictionary with the results. results =
-  {n: n ** 2 for n in range(10)} generates a dictionary containing key n mapped
-  to value n ** 2.
