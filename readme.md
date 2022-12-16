@@ -28,9 +28,9 @@ at programming
 
 ## Topics:
 - [ ] Python
-- [ ] Vim
-- [ ] Git/Github
-- [ ] Command Line
+- [x] Vim
+- [x] Git/Github
+- [x] Command Line
 
 
 # Learn Python
@@ -42,14 +42,14 @@ Follow the [roadmap](https://roadmap.sh/python) to become proficient at Python
 work through [python documentation](python.org)
 
 - [x] Read the [Tutorial](https://docs.python.org/3/tutorial/index.html)
-- [ ] Skim the [Python Standard
+- [x] Skim the [Python Standard
   Library](https://docs.python.org/3/library/index.html#library-index)
-- [ ] Read the [Python Language
+- [x] Read the [Python Language
   Reference](https://docs.python.org/3/reference/index.html#reference-index)
 
 ## Python Resources
 - [ ] work through [Automate the Boring
-  Stuff](https://automatetheboringstuff.co)
+  Stuff](https://automatetheboringstuff.com)
 - [ ] work through [How to Think Like a Computer
   Scientist](http://openbookproject.net/thinkcs/python/english3e/)
 - [ ] work through [Python
