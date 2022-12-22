@@ -12,7 +12,7 @@ print('Welcome to Rock, Paper, Scissors!\nBest of three!\nEnter your move:'
 
 rounds = 0
 
-relations {
+relations = {
         'rock' : 0,
         'paper' : 1,
         'scissors' : 2
