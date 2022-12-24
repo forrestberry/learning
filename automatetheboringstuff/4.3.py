@@ -9,10 +9,12 @@
 # a 1 value the other 50% of the time.
 
 from random import randint as ri
+from statistics import mean
 
-streaks = 0
+percent = []
 
 for i in range(10000):
+    streaks = 0
     group = []
     
    # create flips
@@ -22,13 +24,15 @@ for i in range(10000):
 
     # check for streaks
     for flip in group[:-6]:
-        if group[flip] == group[flip + 1] and group[flip] == group[flip+2] and group[flip] == group[flip+3] and group[flip] == group[flip+4] and group[flip] == group[flip+5]:
+        if all(group[flip:flip+6]):
             streaks += 1
         else:
-            continue
+            pass
+    singlepercent = streaks/100
+    percent.append(singlepercent)    
 
-
-print(streaks/100)
+answer = mean(percent)
+print(answer)
 
 
 
