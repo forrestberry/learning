@@ -39,11 +39,17 @@ grid = [['.', '.', '.', '.', '.', '.'],
         ['O', 'O', 'O', 'O', '.', '.'],
         ['.', 'O', 'O', '.', '.', '.'],
         ['.', '.', '.', '.', '.', '.']]
+ 
+j = 0
+for i in range(len(grid)): 
+    newgrid = []
+    for y in range(len(grid)):
+        # add each vertical element to a list, i.e. 00, 10, 20, ... get added to
+        # list, then 01, 11, 21, etc., then convert list to string, then print
+        newgrid.append(grid[y][j])
+    j += 1
+    newstring = ''
+    for x in newgrid:
+        newstring += x
+    print(newstring)
 
-for x in len(grid):
-    # add each vertical element to a list, i.e. 00, 10, 20, ... get added to
-    # list, then 01, 11, 21, etc., then convert list to string, then print
-    for element in item:
-        print(grid[y][x])
-        y+=1
-        x+=1
