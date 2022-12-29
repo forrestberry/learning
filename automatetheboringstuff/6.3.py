@@ -13,15 +13,22 @@ tableData = [['apples', 'oranges', 'cherries', 'banana'],
              ['dogs', 'cats', 'moose', 'goose']]
 
 # get longest string
-longest = 0
+widths = [0,0,0,0]
 for line in tableData:
-    string = ' '.join(line)
-    if len(string) > longest:
-        longest = len(string)
+    position = 0
+    for item in line:
+        width = len(item)
+        if width > widths[position]:
+            widths[position] = width
+        position += 1
 
 def printTable(list):
+    position = 0
     for line in list:
+        for item in line:
+            item = item.rjust(widths[position])
+            position +=1
         string =' '.join(line)
-        print(string.rjust(longest))
+    print(string)
 
 printTable(tableData)
